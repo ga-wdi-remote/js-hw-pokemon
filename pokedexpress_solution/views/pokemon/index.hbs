@@ -1,0 +1,11 @@
+<h1>POKEDEXpress</h1>
+
+<ul>
+  {{#each pokemon}}
+    <img src={{img}}>
+    <li><a href="/pokemon/{{@index}}">{{name}}</a></li>
+    <form action="/pokemon/{{@index}}?_method=DELETE" method="POST">
+      <input type="submit" value="DELETE"/>
+    </form>
+  {{/each}}
+</ul>

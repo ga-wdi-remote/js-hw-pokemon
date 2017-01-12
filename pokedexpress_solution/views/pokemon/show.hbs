@@ -1,0 +1,16 @@
+<h1>{{pokemon.name}}</h1>
+
+
+
+  <img src="{{pokemon.img}}"/>
+  Type: {{pokemon.type}}
+  <ul>Stats:
+    {{#each pokemon.stats}}
+        <li>{{@key}}: {{this}}</li>
+
+         {{/each}}
+  </ul>
+
+
+
+  <a href="/pokemon">Back Home</a>
