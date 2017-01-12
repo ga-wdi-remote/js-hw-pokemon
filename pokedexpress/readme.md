@@ -361,8 +361,8 @@ instructors' repository. You shouldn't hit a merge conflict here, but if you do,
 
 </details>
 
-- The views folder is empty. There are no rules of when to set these up, so if you'd like to pre-create views or build them as you create your routes, do your thing. 
-  
+- The views folder is empty. There are no rules of when to set these up, so if you'd like to pre-create views or build them as you create your routes, do your thing.
+
    - On the Pokemon's show page, display: name, img, type, and stats.
 
 - Start simply, build the app piece by piece testing each piece along the way.
